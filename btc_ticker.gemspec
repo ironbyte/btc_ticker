@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["illusivespectre@gmail.com"]
 
   spec.summary       = %q{BTC Ticker (cli).}
-  spec.description   = %q{Ruby script fetches latest BTC data using the BlockChain Exchange Rates API.}
+  spec.description   = %q{Ruby script fetches latest BTC data.}
   spec.homepage      = "https://github.com/ironbyte/btc_ticker"
   spec.license       = "MIT"
 
