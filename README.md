@@ -1,6 +1,6 @@
 # BTC Ticker (cli) v0.1.0 (Work in progress)
 
-Ruby script fetches latest BTC data using the BlockChain Exchange Rates API
+Ruby script fetches latest BTC data
 
 ## Installation
 
