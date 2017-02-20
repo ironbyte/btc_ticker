@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["illusivespectre@gmail.com"]
 
   spec.summary       = %q{BTC Ticker (cli).}
-  spec.description   = %q{Ruby script fetches latest BTC data using the BlockTrail API.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = %q{Ruby script fetches latest BTC data using the BlockChain Exchange Rates API.}
+  spec.homepage      = "https://github.com/ironbyte/btc_ticker"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
