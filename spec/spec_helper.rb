@@ -12,4 +12,9 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+
+  config.before(:each) do
+    stub_request(:get, "https://www.bitstamp.net/api/v2/ticker/btcusd/").to_return(File.new("spec/responses/ticker_btcusd_response.http"))
+    stub_request(:get, "https://www.bitstamp.net/api/v2/ticker/btceur/").to_return(File.new("spec/responses/ticker_btceur_response.http"))
+  end
 end
