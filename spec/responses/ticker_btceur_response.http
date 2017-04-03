@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Etag: "61515-b8-54c43ac0055e7"
+Last-Modified: Mon, 03 Apr 2017 14:06:55 GMT
+Content-Type: application/json
+Content-Length: 184
+Connection: keep-alive
+Date: Mon, 03 Apr 2017 14:07:01 GMT
+Set-Cookie: visid_incap_99025=MQNfuiMKSpOIdkegNtDtHAVX4lgAAAAAQUIPAAAAAAD2r9EAoQY0IP+vQGAPg/S6; expires=Tue, 03 Apr 2018 13:30:18 GMT; path=/; Domain=.bitstamp.net
+Set-Cookie: incap_ses_198_99025=wUX+LgR19UBWi82Nj3G/AgVX4lgAAAAAVPA0df2RsL8y8RmRdL9pPQ==; path=/; Domain=.bitstamp.net
+Set-Cookie: ___utmvmVOumyLc=TDlKzFICfrS; path=/; Max-Age=900
+Set-Cookie: ___utmvaVOumyLc=SwGmNyn; path=/; Max-Age=900
+Set-Cookie: ___utmvbVOumyLc=mZR
+    XqFOkalD: UtG; path=/; Max-Age=900
+X-Iinfo: 9-513665-0 0CNN RT(1491228420071 1209) q(0 -1 -1 -1) r(0 -1)
+X-CDN: Incapsula
+
+{"high": "1058.19", "last": "1056.48", "timestamp": "1491228415", "bid": "1047.01", "vwap": "1028.16", "volume": "1937.50447274", "low": "1000.00", "ask": "1056.49", "open": "1003.30"}
