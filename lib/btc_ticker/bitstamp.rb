@@ -15,7 +15,7 @@ module BtcTicker
           if @pair == "btc_usd"
             @parsed_json_response = get_http_response("/v2/ticker/btcusd/")
           elsif @pair == "btc_eur"
-            @parsed_json_response = get_http_response("/v2/ticker/btceur/") if @pair == "btc_eur"
+            @parsed_json_response = get_http_response("/v2/ticker/btceur/")
           end
         end
 
