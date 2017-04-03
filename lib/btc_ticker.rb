@@ -1,6 +1,5 @@
 require "btc_ticker/version"
-require "btc_ticker/common"
+require "btc_ticker/bitstamp"
 
 module BtcTicker
-  # Your code goes here...
 end
