@@ -1,9 +1,0 @@
-#!/usr/bin/env ruby
-
-require "bundler/setup"
-require "btc_ticker"
-
-options = {}
-options = ARGV
-
-p options
