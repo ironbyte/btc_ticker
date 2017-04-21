@@ -1,6 +1,20 @@
-# BTC Ticker (cli) v0.1.0 (Work in progress)
+# BTCTicker  v1.0.0
 
-Ruby script fetches latest BTC data
+A Ruby wrapper for the Bitstamp Ticker API.
+
+#### Bitstamp Ticker API response
+Attribute   | Description
+------------|----------------------------------------------------
+last        | Last BTC price.
+high        | Last 24 hours price high.
+low         | Last 24 hours price low.
+vwap        | Last 24 hours volume weighted average price.
+volume      | Last 24 hours volume.
+bid         | Highest buy order.
+ask         | Lowest sell order.
+timestamp   | Unix timestamp date and time.
+open        | First price of the day.
+----------------------------------------------------------------
 
 ## Installation
 
@@ -20,13 +34,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'btc_ticker'
 
-## Development
+#Get current BTC ticker (Hash object) by currency pair (Only :btc_usd and :btc_eur pairs are supported)
+ticker = BTCTicker::Bitstamp::Ticker.get_info(:btc_usd)
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+#Print a list of the keys
+p ticker.keys #=> ["high", "last", "timestamp", "bid", "vwap", "volume", "low", "ask", "open"]
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+current_btc_usd_price = ticker["last"]
+```
 
 ## License
 
