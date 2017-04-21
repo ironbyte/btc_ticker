@@ -1,5 +1,7 @@
 # BTCTicker  v1.0.0
 
+[![Gem Version](https://badge.fury.io/rb/btc_ticker.svg)](https://badge.fury.io/rb/btc_ticker)
+
 A Ruby wrapper for the Bitstamp Ticker API.
 
 #### Bitstamp Ticker API response
