@@ -3,6 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/btc_ticker.svg)](https://badge.fury.io/rb/btc_ticker)
 [![Build Status](https://travis-ci.org/ironbyte/btc_ticker.svg?branch=master)](https://travis-ci.org/ironbyte/btc_ticker)
 [![Dependency Status](https://gemnasium.com/badges/github.com/ironbyte/btc_ticker.svg)](https://gemnasium.com/github.com/ironbyte/btc_ticker)
+[![Coverage Status](https://coveralls.io/repos/github/ironbyte/btc_ticker/badge.svg?branch=master)](https://coveralls.io/github/ironbyte/btc_ticker?branch=master)
 
 A Ruby wrapper for the Bitstamp Ticker API.
 
