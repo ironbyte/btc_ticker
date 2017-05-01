@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["ironbyte"]
   spec.email         = ["illusivespectre@gmail.com"]
 
-  spec.summary       = %q{BTCTicker v1.0.0}
+  spec.summary       = %q{BTCTicker v1.0.2}
   spec.description   = %q{A Ruby wrapper for the Bitstamp Ticker API}
   spec.homepage      = "https://github.com/ironbyte/btc_ticker"
   spec.license       = "MIT"
