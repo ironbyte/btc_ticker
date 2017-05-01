@@ -2,25 +2,18 @@ require 'httparty'
 
 module BTCTicker
   module Bitstamp
-
-    APPLICATION_NAME = 'BTCTicker-Ruby'
-
     class Ticker
       include HTTParty
 
-      BTCUSD_URI = "/v2/ticker/btcusd/"
-      BTCEUR_URI = "/v2/ticker/btceur/"
-
       base_uri 'https://www.bitstamp.net/api'
-      headers({"User-Agent"=>APPLICATION_NAME})
+      headers({"User-Agent"=>'BTCTicker-Ruby'})
 
       def self.get_info(pair)
-        ticker_cache = {}
         case pair
         when :btc_usd
-          ticker_cache = get_http_response(BTCUSD_URI)
+          get_http_response('/v2/ticker/btcusd/')
         when :btc_eur
-          ticker_cache = get_http_response(BTCEUR_URI)
+          get_http_response('/v2/ticker/btceur/')
         else
           raise ArgumentError, "Invalid pair. Please specify either :btc_usd or :btc_eur"
         end
@@ -30,11 +23,8 @@ module BTCTicker
 
       def self.get_http_response(uri)
         response = get(uri)
-        if response.success?
-          response
-        else
-          raise response.response
-        end
+        raise HTTPError, 'response.code.to_s' unless response.code == 200
+        response
       end
     end
   end
