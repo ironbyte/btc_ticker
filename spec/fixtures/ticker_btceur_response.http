@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, accept, cache-control
+Access-Control-Allow-Methods: POST, GET
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Sun, 14 May 2017 14:41:48 GMT
+ETag: "60c89-b7-54f7cefd99b81"
+Last-Modified: Sun, 14 May 2017 14:41:42 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Content-Length: 183
+Connection: keep-alive
+Set-Cookie: nlbi_99025=fQ4YGEG9VRXK4RCc8F1n9AAAAAAOjdn9J63PzP1o2Sng2TOM; path=/; Domain=.bitstamp.net
+Set-Cookie: visid_incap_99025=4Tja8bd9RT2FkcljfHA1oqxsGFkAAAAAQUIPAAAAAAAsUynUYHxDOVD6nC9oieKI; expires=Mon, 14 May 2018 13:41:40 GMT; path=/; Domain=.bitstamp.net
+Set-Cookie: incap_ses_198_99025=cMV2X9KepjUjLSlFm3G/AqxsGFkAAAAAbvnjUbS4GQGUoDP3J3XzQQ==; path=/; Domain=.bitstamp.net
+Set-Cookie: ___utmvmVOumyLc=lNIcPPXDOEQ; path=/; Max-Age=900
+Set-Cookie: ___utmvaVOumyLc=ruAfxzD; path=/; Max-Age=900
+Set-Cookie: ___utmvbVOumyLc=qZq
+    XIfOWalS: Otb; path=/; Max-Age=900
+X-Iinfo: 7-105451950-105451257 2NNN RT(1494772907754 701) q(0 0 0 -1) r(3 3)
+X-CDN: Incapsula
+
+{"high": "1661.13", "last": "1637.78", "timestamp": "1494772901", "bid": "1628.88", "vwap": "1624.50", "volume": "998.95147482", "low": "1559.98", "ask": "1637.78", "open": "1638.00"}

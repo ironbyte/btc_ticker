@@ -18,5 +18,6 @@ RSpec.configure do |config|
 
   config.before(:each) do
     stub_request(:get, 'https://www.bitstamp.net/api/v2/ticker/btcusd/').to_return(File.new('spec/fixtures/ticker_btcusd_response.http'))
+    stub_request(:get, 'https://www.bitstamp.net/api/v2/ticker/btceur/').to_return(File.new('spec/fixtures/ticker_btceur_response.http'))
   end
 end
