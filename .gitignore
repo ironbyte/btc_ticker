@@ -10,3 +10,13 @@
 
 # rspec failure tracking
 .rspec_status
+
+# Ignore SublimeText files
+/*.sublime-project
+/*.sublime-workspace
+
+# Ignore Coveralls config file (it should be kept secret)
+/.coveralls.yml
+
+# Ignore built gems
+/*.gem
