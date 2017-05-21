@@ -1,30 +1,25 @@
-require 'httparty'
+require 'json'
 
 module BTCTicker
   module Bitstamp
+    APIBASE = 'https://www.bitstamp.net/api/v2'
+
     class Ticker
-      include HTTParty
-
-      base_uri 'https://www.bitstamp.net/api'
-      headers({"User-Agent"=>'BTCTicker-Ruby'})
-
       def self.get_info(pair)
         case pair
         when :btc_usd
-          get_http_response('/v2/ticker/btcusd/')
+          json_response(pair)
         when :btc_eur
-          get_http_response('/v2/ticker/btceur/')
+          json_response(pair)
         else
-          raise ArgumentError, "Invalid pair. Please specify either :btc_usd or :btc_eur"
+          raise ArgumentError, "Please specify either :btc_usd or :btc_eur"
         end
       end
 
       private
-
-      def self.get_http_response(uri)
-        response = get(uri)
-        raise HTTPError, 'response.code.to_s' unless response.code == 200
-        response
+      def self.json_response(pair)
+        p = pair.id2name.gsub('_', '')
+        JSON.parse(HTTPClient.get_http_response("#{APIBASE}/ticker/#{p}/").body)
       end
     end
   end

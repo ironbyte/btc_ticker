@@ -1,0 +1,90 @@
+HTTP/1.1 404 NOT FOUND
+Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, accept, cache-control
+Access-Control-Allow-Methods: POST, GET
+Access-Control-Allow-Origin: *
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Date: Sun, 21 May 2017 10:00:21 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Accept-Language,Cookie
+X-Frame-Options: SAMEORIGIN
+transfer-encoding: chunked
+Connection: keep-alive
+Set-Cookie: visid_incap_99025=dZ+R9XDJRjGU0S4w3HbUFzVlIVkAAAAAQUIPAAAAAAA3ExQtgFqJDfOAFh0Xg9NN; expires=Sun, 20 May 2018 14:10:35 GMT; path=/; Domain=.bitstamp.net
+Set-Cookie: nlbi_99025=LmXfD3P/TgxnJyRI8F1n9AAAAAAw8yCvxMwHqwVgLPTfimvZ; path=/; Domain=.bitstamp.net
+Set-Cookie: incap_ses_198_99025=Wag4H0Pb4Xcm6LmUnXG/AjVlIVkAAAAAWr8GeBx1Qdm+TLX0yFtqHw==; path=/; Domain=.bitstamp.net
+Set-Cookie: ___utmvmVOumyLc=UCFGsHNFjew; path=/; Max-Age=900
+Set-Cookie: ___utmvaVOumyLc=nokbrTj; path=/; Max-Age=900
+Set-Cookie: ___utmvbVOumyLc=sZL
+    XSYOcalS: Fte; path=/; Max-Age=900
+X-Iinfo: 4-62358821-62354274 PNNN RT(1495360820028 981) q(0 0 0 0) r(0 0) U11
+X-CDN: Incapsula
+
+<!DOCTYPE html>
+<html lang="en"><!-- POMEMBNO! tu mora biti pravilna koda jezika -->
+<head>
+    <meta charset="utf-8">
+    <title>Bitstamp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <!-- Styles -->
+    <link href="/s/css/error_style.4.css?v=1495107330" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Icons -->
+
+
+    <!-- Fonts -->
+
+</head>
+
+
+<body>
+<!-- Main Header -->
+<header class="main_header clearfix">
+<div class="container clearfix">
+
+<h1><a href="/">Bitstamp</a></h1>
+
+</div><!-- end container -->
+<div class="shadow"></div>
+</header>
+
+<!-- Index Features -->
+<section class="index_features clearfix">
+<div class="container clearfix">
+<div class="error404 clearfix">
+    <header class="clearfix">
+        <h1>and it's gone.</h1>
+        <h2>Page not found</h2>
+    </header>
+
+    <div class="text">
+    <p>The requested url was not found on our servers.</p>
+    </div>
+</div>
+</div>
+<div class="shadow"></div>
+</section><!-- end Index Features -->
+
+
+<!-- Foot -->
+<footer class="main_footer">
+<div class="container clearfix">
+    <div class="column social">
+        <ul>
+            <li><a href="http://www.facebook.com/Bitstamp" class="icon social-facebook">Bitstamp on Facebook</a></li>
+            <li><a href="http://www.linkedin.com/company/bitstamp" class="icon social-linkedin">Bitstamp on LinkedIn</a></li>
+            <li><a href="http://twitter.com/Bitstamp" class="icon social-twitter">Bitstamp on Twitter</a></li>
+        </ul>
+    </div>
+
+</div><!-- end container -->
+</footer><!-- end Foot -->
+</body>
